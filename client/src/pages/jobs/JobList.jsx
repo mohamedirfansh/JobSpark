@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './JobList.css'
 import Job from '../../components/job/Job'
-import jobs from '../../dummyData'
 import Footer from '../../components/footer/Footer'
+import { JobsContext } from '../../context/JobsContext'
 
 export default function JobList() {
+  const [jobs, setJobs] = useContext(JobsContext);
   return (
     <div className="page-content">
       <section className="page-title-box">

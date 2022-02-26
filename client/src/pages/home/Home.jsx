@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Landing from '../../components/landing/Landing'
-import Category from '../../components/category/Category'
+import CategoryIcon from '../../components/category/CategoryIcon'
 import Footer from '../../components/footer/Footer'
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
           </div>
           <div className="row">
-            {categories.map((name, index) => <Category name={name} icon={name} key={index} />)}
+            {categories.map((name, index) => <CategoryIcon name={name} icon={name} key={index} />)}
           </div>
         </div>
       </section>
