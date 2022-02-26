@@ -1,0 +1,39 @@
+.job-grid-box {
+  border-radius: 14px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.313rem 0.5rem;
+  font-size: 75%;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.bg-soft-success {
+  background-color: rgba(4,133,101,.15)!important;
+  color: #048565!important;
+}
+
+.bg-soft-purple {
+  background-color: rgba(118,109,244,.15)!important;
+  color: #766df4!important;
+}
+
+.bg-soft-blue {
+  background-color: rgba(31,134,239,.15)!important;
+  color: #1f86ef!important;
+}
+
+.job-desc {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}

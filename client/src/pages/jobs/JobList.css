@@ -1,0 +1,14 @@
+.page-title-box {
+  background-size: cover;
+  background-color: #029663;
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-position: center;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+#job-list {
+  margin-bottom: 5rem;
+}

@@ -1,0 +1,21 @@
+section {
+  display: block;
+}
+
+#landing {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#categories {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.bg-home2 {
+  padding: 0.5rem 0 1rem 0;
+  background-color: rgba(2,175,116,.1);
+  overflow-x: clip;
+}
