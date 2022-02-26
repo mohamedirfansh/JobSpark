@@ -1,16 +1,32 @@
 const mongoose=require('mongoose')
 
 const jobSchema =mongoose.Schema({
-    text:{
+    locations:{
         type: String,
-        required:[true,'Please add a text value'],
-
+    },
+    site:{
+        type: String,
+    },
+    date:{
+        type: String,
+    },
+    url:{
+        type: String,
+    },
+    title:{
+        type: String,
+    },
+    description:{
+        type: String,
+    },
+    company:{
+        type: String,
+    },
+    salary:{
+        type: String,
     },
 },
-    {
-        timestamps:true
-    }
+{ collection : 'Junior, Aerospace' }
 )
 
 module.exports=mongoose.model('Job',jobSchema)
-
