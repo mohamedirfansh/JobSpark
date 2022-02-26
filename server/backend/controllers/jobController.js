@@ -4,7 +4,7 @@ const JobDatabase =require('../models/jobsmodel')
 
 
 const getJob = asyncHandler(async(req,res)=>{
-    const jobinfo = await JobDatabase.find()
+    const jobinfo = await JobDatabase.find({industry:"Aerospace"})
 
    
     res.status(200).json(jobinfo)

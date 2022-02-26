@@ -25,8 +25,11 @@ const jobSchema =mongoose.Schema({
     salary:{
         type: String,
     },
+    industry:{
+        type: String,
+    },
 },
-{ collection : 'Junior, Aerospace' }
+{ collection : 'Junior' }
 )
 
 module.exports=mongoose.model('Job',jobSchema)
