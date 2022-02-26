@@ -4,9 +4,32 @@ const JobDatabase =require('../models/jobsmodel')
 
 
 const getJob = asyncHandler(async(req,res)=>{
-    const jobinfo = await JobDatabase.find({industry:"Aerospace"})
+    searchparameters={}
+    
+    industryRequest=req.header("industry")
+    if(!industryRequest){
+        industryRequest={$nin:""}
+    }else{
+        industryRequest= new RegExp(industryRequest,'i')
+    }
 
-   
+    titleRequest=req.header("title")
+    if(!titleRequest){
+        titleRequest={$nin:""}
+    }
+    else{
+        newref= new RegExp(titleRequest,'i')
+        titleRequest={$regex : newref}
+    }
+
+String
+  
+    searchparameters={
+        industry : industryRequest,
+        title    : titleRequest
+      }
+    console.log(searchparameters) 
+    const jobinfo = await JobDatabase.find(searchparameters)   
     res.status(200).json(jobinfo)
 })
 

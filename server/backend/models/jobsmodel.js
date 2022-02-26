@@ -28,7 +28,6 @@ const jobSchema =mongoose.Schema({
     industry:{
         type: String,
     },
-    
 },
 { collection : 'Junior' }
 )
