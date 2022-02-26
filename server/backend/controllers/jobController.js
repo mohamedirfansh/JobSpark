@@ -21,13 +21,12 @@ const getJob = asyncHandler(async(req,res)=>{
         newref= new RegExp(titleRequest,'i')
         titleRequest={$regex : newref}
     }
-
   
     searchparameters={
         industry : industryRequest,
         title    : titleRequest
       }
-    console.log(searchparameters) 
+    //console.log(searchparameters) 
     const jobinfo = await JobDatabase.find(searchparameters)   
     res.status(200).json(jobinfo)
 })
