@@ -1,28 +1,61 @@
 const asyncHandler =require('express-async-handler')
 
-const getGoal = asyncHandler(async(req,res)=>{
+const JobDatabase =require('../models/jobsmodel')
+
+
+const getJob = asyncHandler(async(req,res)=>{
+    const jobinfo = await JobDatabase.find()
+
+   
+    res.status(200).json(jobinfo)
+})
+
+
+const setJob = asyncHandler(async(req,res)=>{
     if(!req.body.text){
         res.status(400)
         throw new Error('Please add a text field')
     }
-    res.status(200).json({message:'Get Jobs'})
+    const jobnewentry = await JobDatabase.create({
+        text: req.body.text
+    })
+    res.status(200).json(jobnewentry)
 })
 
 
-const setGoal = asyncHandler(async(req,res)=>{
+const updateJob = asyncHandler(async(req,res)=>{
 
-    res.status(200).json({message:"Set Jobs"})
+    const jobdata =await JobDatabase.findById(req.params.id)
+
+
+    if(!jobdata){
+        res.status(400)
+        throw new Error('Job not found')
+    }
+
+    const jobupdateinfo = await JobDatabase.findByIdAndUpdate(req.params.id, req.body,{
+        new:true
+    })
+
+
+    res.status(200).json(jobupdateinfo)
 })
 
+const deleteJob = asyncHandler(async(req,res)=>{
 
-const updateGoal = asyncHandler(async(req,res)=>{
-    res.status(200).json({message:`Update Jobs ${req.params.id}`})
-})
+    const jobToBeDeleted=await JobDatabase.findById(req.params.id)
 
-const deleteGoal = asyncHandler(async(req,res)=>{
-    res.status(200).json({message:`Delete Jobs ${req.params.id}`})
+
+    if(!jobToBeDeleted){
+        res.status(400)
+        throw new Error('Job not found')
+    }
+
+    await jobToBeDeleted.remove()
+
+    res.status(200).json({id:req.params.id})
 })
 
 module.exports={
-    getGoal,setGoal,updateGoal,deleteGoal
+    getJob,setJob,updateJob,deleteJob
 }
