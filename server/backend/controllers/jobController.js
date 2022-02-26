@@ -22,7 +22,6 @@ const getJob = asyncHandler(async(req,res)=>{
         titleRequest={$regex : newref}
     }
 
-String
   
     searchparameters={
         industry : industryRequest,
