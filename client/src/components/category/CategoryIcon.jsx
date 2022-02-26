@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Category({name, icon}) {
+export default function CategoryIcon({name, icon}) {
   return (
     <div mt="4" pt="2" className="col-md-6 col-lg-3 mb-5 mt-5">
       <div className="popu-category-box rounded text-center">
