@@ -20,7 +20,7 @@ Users can select the industry that they would like to see the junior jobs.
 Once an industry is selected, all the junior postion jobs that do not require any experience will show up in a single page. Users can now conveniently view all the jobs they are eligible for in a single place. Users can also click the apply now button which will bring them to the actual posting of the job where they can apply for the job.
 ![](images/jobs.png)
 
-## 🔎 How it was built
+## 🛠️ How it was built
 
 The client facing frontend was built in **React** with **Bootstrap**. Everytime a user clicks on an industry to view the jobs page, the client will make a request to the backend server built with **Node.js** and **Express**. The job listings are retrieved from a **MongoDB** database. We get the actual job listings from various job portal APIs. We aggregate them for the user.
 
