@@ -1,7 +1,7 @@
 import React from 'react'
 import './Job.css'
 
-export default function Job({position, companyName, salary, experience, location, jobDesc, date}) {
+export default function Job({title, company, salary, industry, locations, description, date, url}) {
   return (
     <div className="mt-4 col-md-6 col-lg-4">
       <div className="card job-grid-box">
@@ -11,20 +11,20 @@ export default function Job({position, companyName, salary, experience, location
           </div>
           <div className="mt-4">
             <a className="primary-link text-decoration-none" href="/">
-              <h5 className="fs-17 mb-1">{position}</h5>
+              <h5 className="fs-17 mb-1">{title}</h5>
             </a>
-            <p className="text-muted">{companyName}</p>
+            <p className="text-muted">{company}</p>
             <ul className="list-inline">
               <li className="list-inline-item"><span className="badge bg-soft-success fs-13 mt-1">{salary}</span></li>
-              <li className="list-inline-item"><span className="badge bg-soft-purple fs-13 mt-1">{experience}</span></li>
-              <li className="list-inline-item"><span className="badge bg-soft-blue fs-13 mt-1">{location}</span></li>
+              <li className="list-inline-item"><span className="badge bg-soft-purple fs-13 mt-1">{industry}</span></li>
+              <li className="list-inline-item"><span className="badge bg-soft-blue fs-13 mt-1">{locations}</span></li>
             </ul>
           </div>
           <div className="job-grid-content mt-3">
-            <p className="text-muted job-desc">{jobDesc}</p>
+            <p className="text-muted job-desc">{description}</p>
             <div className="d-flex align-items-center justify-content-between mt-4 border-top pt-3">
               <p className="text-muted float-start mb-0">{date}</p>
-              <div className="text-end"><a href="#applyNow" className="btn btn-sm btn-primary">Apply Now <i className="uil uil-angle-right-b"></i></a></div>
+              <div className="text-end"><a href={url} target="_blank" rel='noreferrer' className="btn btn-sm btn-primary">Apply Now <i className="uil uil-angle-right-b"></i></a></div>
             </div>
           </div>
         </div>

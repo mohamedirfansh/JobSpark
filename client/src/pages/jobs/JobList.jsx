@@ -1,11 +1,23 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import './JobList.css'
 import Job from '../../components/job/Job'
 import Footer from '../../components/footer/Footer'
 import { JobsContext } from '../../context/JobsContext'
+import { getJobs } from '../../api/getJobsApi'
 
 export default function JobList() {
   const [jobs, setJobs] = useContext(JobsContext);
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchJobs = async () => {
+      const resp = await getJobs("technology");
+      setJobs(resp);
+      console.log(data);
+    }
+    fetchJobs();
+  }, [data, setData])
+
   return (
     <div className="page-content">
       <section className="page-title-box">
@@ -19,7 +31,7 @@ export default function JobList() {
       <section className="section" id="job-list">
         <div className="container">
           <div className="row">
-            {jobs.map((job) => <Job {...job} key={job.id}/>)}
+            {jobs.map((job) => <Job {...job} key={job._id}/>)}
           </div>
         </div>
       </section>
