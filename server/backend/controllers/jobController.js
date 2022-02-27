@@ -6,14 +6,14 @@ const JobDatabase =require('../models/jobsmodel')
 const getJob = asyncHandler(async(req,res)=>{
     searchparameters={}
     
-    industryRequest=req.header("industry")
+    industryRequest=req.param("industry")
     if(!industryRequest){
         industryRequest={$nin:""}
     }else{
         industryRequest= new RegExp(industryRequest,'i')
     }
 
-    titleRequest=req.header("title")
+    titleRequest=req.param("title")
     if(!titleRequest){
         titleRequest={$nin:""}
     }
