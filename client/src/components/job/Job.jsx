@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Job.css'
 
 export default function Job({title, company, salary, industry, locations, description, date, url}) {
+  const [companyLogoPath, setCompanyLogoPath] = useState(`/assets/company_logos/${company}.jpg`);
+  const defaultCompanyLogo = () => (setCompanyLogoPath(`assets/apple.png`));
   return (
     <div className="mt-4 col-md-6 col-lg-4">
       <div className="card job-grid-box">
         <div className="card-body p-4">
           <div>
-            <img src="/assets/apple.png" alt="company logo"/>
+            <img src={companyLogoPath} onError={defaultCompanyLogo} width="64px" height="64px" alt="company logo"/>
           </div>
           <div className="mt-4">
             <a className="primary-link text-decoration-none" href="/">

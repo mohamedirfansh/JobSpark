@@ -7,7 +7,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-4c4d41644302001c4a15540a070f4e3300431c06061f454c442f67110107480600221b12071411411a1c6b274f485543420800095e5461101b081d13044e006a280059424e594c0a1b6c6d014e0a07136f5f5616455b/430a91cd6708ca2a4625b6168f494faa.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "INFORMATION TECHNOLOGY ASSISTANT (JUNIOR)",
       description: "Responsibilities: * Assist with IT infrastructure, request and administration * Assist to maintain equipments, involving hardware, software, and systems * Diagnose network and system problems Responsibilities: Assist with IT infrastructure,...",
-      compay: "Muji (singapore) Pte. Ltd.",
+      company: "Muji (singapore) Pte. Ltd.",
       salary: "",
       industry: "Information Technology"
   },
@@ -24,7 +24,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-481a416944160a0d531b5243210f0808174d151c001c440b69484e0c01014b1b471a6a2800010a5219091d1a45451d794807070048184f0411412f120149006a3a164442525f0d251c1d4e07540206154e230c52110b1d1c58296e48430d001c073049110d021a081700200d0a1b444451424a1d6d3a4217480d070d01001c00351d0d1a5e0b79445f010c1a4806215b5b575f54/5e0578e51fe4a023ea0bbf4ee5453ee3.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Senior Assistant Director (Information Technology Audit Department)",
       "salary_max": "108000",
-      compay: "Rma Contracts Pte. Ltd.",
+      company: "Rma Contracts Pte. Ltd.",
       industry: "Information Technology"
   },
   {
@@ -40,7 +40,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-481a416944160a0d531b5243210f0808174d151c001c440b69484e0c01014b1b471a6a2800010a5219091d1a45451d794807070048184f0411412f120149006a3a164442525f0d251c1d4e07540206154e230c52110b1d1c58296e48430d001c073049110d021a081700200d0a1b444451424a1d6d3a4217480d070d01001c00351d0d1a5e0b79445f010c1a4806215b5b575f54/ab101f453da2d827281b15917db368b0.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Senior Assistant Director (Information Technology Audit Department)",
       "salary_max": "108000",
-      compay: "Business Edge Personnel Services Pte Ltd",
+      company: "Business Edge Personnel Services Pte Ltd",
       industry: "Information Technology"
   },
   {
@@ -56,7 +56,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-481a416944160a0d531b5243210f0808174d151c001c440b69484e0c01014b1b471a6a2800010a5219091d1a45451d794807070048184f0411412f120149006a3a164442525f0d251c1d4e07540206154e230c52110b1d1c58296e48430d001c073049110d021a081700200d0a1b444451424a1d6d3a4217480d070d01001c00351d0d1a5e0b79445f010c1a4806215b5b575f54/29182408cf334e0fcae2d74147d1a074.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Senior Assistant Director (Information Technology Audit Department)",
       "salary_max": "108000",
-      compay: "Rma Consultants Pte Ltd",
+      company: "Rma Consultants Pte Ltd",
       industry: "Information Technology"
   },
   {
@@ -72,7 +72,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-481a416944160a0d531b5243210f0808174d151c001c440b69484e0c01014b1b471a6a2800010a5219091d1a45451d794807070048184f0411412f120149006a3a164442525f0d251c1d4e07540206154e230c52110b1d1c58296e48430d001c073049110d021a081700200d0a1b444451424a1d6d3a4217480d070d01001c00351d0d1a5e0b79445f010c1a4806215b5b575f54/1d310f35d2880c9fc27699986092d82d.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "SENIOR ASSISTANT DIRECTOR (INFORMATION TECHNOLOGY AUDIT DEPARTMENT) – ITAD",
       "salary_max": "108000",
-      compay: "Rma Consultants Pte Ltd",
+      company: "Rma Consultants Pte Ltd",
       industry: "Information Technology"
   },
   {
@@ -88,7 +88,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-4f4a417d5f0b050b4400002e090f0f000052542107154559504c590d000007204500000f010b0a470d6a201d4c444f404c100601495474060b090008094f1311493e4b455c4a48166d3e551b4a060b154e2e0b461b1a04125e4252430d290e00461345116a311c080f45171c493e4b455c4a48164f3a4217480d070d01001c22241a06194f48490d6005010f401152625052585656/4a2a4b1651d35194c5dadac5e4f1d751.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Information Technology Project Manager",
       "salary_max": "240000",
-      compay: "Accenture Sg Services Pte. Ltd.",
+      company: "Accenture Sg Services Pte. Ltd.",
       industry: "Information Technology"
   },
   {
@@ -104,7 +104,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1f18416479442a164217551701170b652c7454213d7163455b425f090e1a4e1b4e432d190b0410541d1e0c71637f1d794807070048184f0401041d652058110b1c07435d582c1f5d565a104d/6c564ca5d5e5de53d316d0fa2e852f0f.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "IT Executive [Marymount / Information Technologies Executive]",
       "salary_max": "2500",
-      compay: "",
+      company: "",
       industry: "Information Technology"
   },
   {
@@ -115,7 +115,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-4e1d41644302001c4a15540a070f4e340043011a0007530b724b4b0d0c0b5576690d0e0e1c0a04541d070753794e5e585f0d1b17252745001d1307131c003b0e0f1a494e4f2f640a090155194117010e00472a4612010a1658297c7d6c274f3d42175511011517665d1342595a/c9c99d52c53e58bb423b451f1d76865f.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "APAC Group Information Security Officer - ICG Sector",
       description: "    Additional <b>Information</b>   Career Level   <b>Junior</b> Executive   Qualification   Bachelor's Degree, Post Graduate Diploma, Professional...Responsibilities   The Group <b>Information</b> Security Officer is a senior management level position responsible...",
-      compay: "FSK Advisory",
+      company: "FSK Advisory",
       salary: "",
       industry: "Information Technology"
   },
@@ -127,7 +127,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-121f417e480a06015554630c06121b0b11411a1c6b3a444d525f40051b07481a0020070f1d12095415061d716944535e58081b0f490022300d0f070817223d060f1c58465c59440b016f1f4716525b/e2f9ef4bf51d0c9977a6912b68226016.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Senior Consultant, Client Information & Lifecycle",
       description: ". Our expertise in business and <b>technology</b> combined with our methodic approach enable us to create sustainable added value..., Client <b>Information</b> & Lifecycle The Senior Consultant will take a lead role working with the client to understand...",
-      compay: "Synpulse Singapore Pte Ltd",
+      company: "Synpulse Singapore Pte Ltd",
       salary: "",
       industry: "Information Technology"
   },
@@ -139,7 +139,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-481341644302001c4a15540a070f4e240a4e071d05074b45492f6e0b011d5218540206156c2e0b461b1a04125e4252432f270307421a54625052585656/079cbe6cbed516e895fcc92f1ef8c538.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Consultant, Client Information & Lifecycle",
       description: " and handover. Our expertise in business and <b>technology</b> combined with our methodic approach enable us to create sustainable added... as a Consultant, Client <b>Information</b> & Lifecycle As a Consultant, you will work with the client to gather and document system...",
-      compay: "Synpulse Singapore Pte Ltd",
+      company: "Synpulse Singapore Pte Ltd",
       salary: "",
       industry: "Information Technology"
   },
@@ -151,7 +151,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1d1e41644302001c4a15540a070f4e340043011a0007530b7a425b011d00461a43066a2800010a5219091d1a45451d7e48071a1c4e005961210f0808174d151c001c440b7a425b011d00461a43066a320b0410521d1c107163455b425f090e1a4e1b4e625052585656/5aadd025f75535accf3f6310d1ebcfe7.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Principal, Information Security Governance",
       description: " advice, awareness/training on <b>information</b> security and key <b>technology</b> risk matters relating to the abovementioned..., professional advice, awareness/training on <b>information</b> security and key <b>technology</b> risk matters relating to the abovementioned...",
-      compay: "AIA",
+      company: "AIA",
       salary: "",
       industry: "Information Technology"
   },
@@ -163,7 +163,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1a12416b5808034e731d4d066a350b040d4e1b040614530b7c434c08161d5376670f07030f0b4574110b011d4547524a546628024816410f482000060959071c6b32444a51545e104f2d481a531605041c665d1342595a/3648edd152382b66b087fb30bb77b5f9.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Global Consumer Technology, 2022 Full Time Analyst, Singapore",
       description: ".  Degrees in Computer Science, <b>Information</b> Systems, Computer Engineering, Business (<b>technology</b> focused), and other <b>technology</b>...Citibank N.A.   East   Posted on 7-Feb-22   Global Consumer <b>Technology</b>, 2022 Full Time Analyst, Singapore [80011929...",
-      compay: "Engie",
+      company: "Engie",
       salary: "",
       industry: "Information Technology"
   },
@@ -175,7 +175,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1a12416b5808034e731d4d066a350b040d4e1b040614530b7c434c08161d5376670f07030f0b4574110b011d4547524a546628024816410f482000060959071c6b32444a51545e104f2d481a531605041c665d1342595a/f8e1e814e26bab6f846bf37350770832.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Global Consumer Technology, 2022 Full Time Analyst, Singapore",
       description: ".  Degrees in Computer Science, <b>Information</b> Systems, Computer Engineering, Business (<b>technology</b> focused), and other <b>technology</b>...Citibank N.A.   East   Posted on 20-Feb-22   Global Consumer <b>Technology</b>, 2022 Full Time Analyst, Singapore   Citibank N...",
-      compay: "Engie",
+      company: "Engie",
       salary: "",
       industry: "Information Technology"
   },
@@ -187,7 +187,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1a12416b5808034e731d4d066a350b040d4e1b040614530b7c434c08161d5376670f07030f0b4574110b011d4547524a546628024816410f482000060959071c6b32444a51545e104f2d481a531605041c665d1342595a/08af2602853a8963361108d2781a1fad.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Global Consumer Technology | 2022 Full Time Analyst, Singapore | (ID80011929) |",
       description: " class honors, equivalent.  Degrees in Computer Science, <b>Information</b> Systems, Computer Engineering, Business (<b>technology</b>...-making   Additional <b>Information</b>   Career Level   <b>Junior</b> Executive   Qualification   Bachelor's Degree, Post Graduate Diploma...",
-      compay: "Engie",
+      company: "Engie",
       salary: "",
       industry: "Information Technology"
   },
@@ -199,7 +199,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1a12416b5808034e731d4d066a350b040d4e1b040614530b7c434c08161d5376670f07030f0b4574110b011d4547524a546628024816410f482000060959071c6b32444a51545e104f2d481a531605041c665d1342595a/2a96ef7971a6e8342430dafdf94ba532.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Global Consumer Technology | 2022 Full Time Analyst, Singapore | (ID80011929)",
       description: " class honors, equivalent.  Degrees in Computer Science, <b>Information</b> Systems, Computer Engineering, Business (<b>technology</b>...-making   Additional <b>Information</b>   Career Level   <b>Junior</b> Executive   Qualification   Bachelor's Degree, Post Graduate Diploma...",
-      compay: "Engie",
+      company: "Engie",
       salary: "",
       industry: "Information Technology"
   },
@@ -211,7 +211,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1a12416b5808034e731d4d066a350b040d4e1b040614530b7c434c08161d5376670f07030f0b4574110b011d4547524a546628024816410f482000060959071c6b32444a51545e104f2d481a531605041c665d1342595a/b3ac66986feeb6d843e3dc8550df2759.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Global Consumer Technology | 2022 Full Time Analyst, Singapore - (ID80011929)",
       description: " class honors, equivalent.  Degrees in Computer Science, <b>Information</b> Systems, Computer Engineering, Business (<b>technology</b>...-making   Additional <b>Information</b>   Career Level   <b>Junior</b> Executive   Qualification   Bachelor's Degree, Post Graduate Diploma...",
-      compay: "Engie",
+      company: "Engie",
       salary: "",
       industry: "Information Technology"
   },
@@ -223,7 +223,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1a12416b5808034e731d4d066a350b040d4e1b040614530b7c434c08161d5376670f07030f0b4574110b011d4547524a546628024816410f482000060959071c6b32444a51545e104f2d481a531605041c665d1342595a/4def7bcff8afc567b0fb6755c26640e4.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Global Consumer Technology, 2022 Full Time Analyst, Singapore",
       description: ".  Degrees in Computer Science, <b>Information</b> Systems, Computer Engineering, Business (<b>technology</b> focused), and other <b>technology</b>...Citibank N.A.   East   Posted on 7-Feb-22   Global Consumer <b>Technology</b>, 2022 Full Time Analyst, Singapore - (80011929...",
-      compay: "Engie",
+      company: "Engie",
       salary: "",
       industry: "Information Technology"
   },
@@ -235,7 +235,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1a12416b5808034e731d4d066a350b040d4e1b040614530b7c434c08161d5376670f07030f0b4574110b011d4547524a546628024816410f482000060959071c6b32444a51545e104f2d481a531605041c665d1342595a/2cddb4328887f33f073395493346345d.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Global Consumer Technology, 2022 Full Time Analyst, Singapore",
       description: ".  Degrees in Computer Science, <b>Information</b> Systems, Computer Engineering, Business (<b>technology</b> focused), and other <b>technology</b>...Citibank N.A.   East   Posted on 8-Feb-22   Global Consumer <b>Technology</b>, 2022 Full Time Analyst, Singapore - [80011929...",
-      compay: "Engie",
+      company: "Engie",
       salary: "",
       industry: "Information Technology"
   },
@@ -252,7 +252,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-124e41794807070048184f04114123060b41130d1b71674a534c4a011d6c7311430b060e0208025975505a451b18/3b8a9dff6a8a71db965858051c432464.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Technology Manager",
       "salary_max": "67200",
-      compay: "Ca M&e Engineering Pte. Ltd.",
+      company: "Ca M&e Engineering Pte. Ltd.",
       industry: "Information Technology"
   },
   {
@@ -268,7 +268,7 @@ const jobs = [
       url: "http://jobviewtrack.com/en-sg/job-1b1841794807070048184f04114123060b41130d1b716c444f484317060d07204500000f010b0a470d6a2a0a484e4f0d6b0b1d0b490749006a2c0f090447111a6b35455958435e0d0c6f1f4716525b/3fa24f7598428bb6d0832a03d2020611.html?affid=df27d01a3ac5c8f5c51568fbed761ff3",
       title: "Cyber and Response Manager, Forensic Technology",
       "salary_max": "192000",
-      compay: "Ernst & Young Advisory Pte. Ltd.",
+      company: "Ernst & Young Advisory Pte. Ltd.",
       industry: "Information Technology"
   }
 ]
