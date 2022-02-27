@@ -6,6 +6,7 @@ import Footer from '../../components/footer/Footer'
 
 export default function Home() {
   const categories = ["Information Technology", "Healthcare", "Banking", "Manufacturing", "Food & Beverages", "Retail", "Customer Service", "Engineering"]
+  // const categories = ["technology", "healthcare","manufacturing", "banking", "food", "retail", "customer-service", "engineering",]
   return (
     <div className='page-content'>
       <section className='bg-home2' id='landing'>

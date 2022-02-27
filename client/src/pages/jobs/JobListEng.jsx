@@ -11,9 +11,9 @@ export default function JobList() {
 
   useEffect(() => {
     const fetchJobs = async () => {
-      const resp = await getJobs("technology");
+      const resp = await getJobs("aerospace");
       setJobs(resp);
-      console.log(data);
+      console.log(jobs);
     }
     fetchJobs();
   }, [data, setData])
