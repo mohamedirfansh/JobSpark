@@ -3,7 +3,7 @@ const asyncHandler =require('express-async-handler')
 const JobDatabase =require('../models/jobsmodel')
 
 
-const getJob = asyncHandler(async(req,res)=>{
+const getJob = async(req,res)=>{
     searchparameters={}
     try{
         industryRequest=req.param("industry")
@@ -31,8 +31,7 @@ const getJob = asyncHandler(async(req,res)=>{
         throw new Error('Job not found')
     }
 
-})
-
+}
 
 const setJob = asyncHandler(async(req,res)=>{
     if(!req.body.text){

@@ -26,7 +26,7 @@ export default function Job({title, company, salary, industry, locations, descri
             <p className="text-muted job-desc">{description}</p>
             <div className="d-flex align-items-center justify-content-between mt-4 border-top pt-3">
               <p className="text-muted float-start mb-0">{date}</p>
-              <div className="text-end"><a href={url} target="_blank" rel='noreferrer' className="btn btn-sm btn-primary">Apply Now <i className="uil uil-angle-right-b"></i></a></div>
+              <div className="text-end"><a href={url} target="_blank" rel='noreferrer' className="btn btn-sm btn-primary">Apply Now</a></div>
             </div>
           </div>
         </div>
