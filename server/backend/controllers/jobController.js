@@ -5,32 +5,33 @@ const JobDatabase =require('../models/jobsmodel')
 
 const getJob = async(req,res)=>{
     searchparameters={}
-    
-    industryRequest=req.param("industry")
-    if(!industryRequest){
-        industryRequest={$nin:""}
-    }else{
-        industryRequest= new RegExp(industryRequest,'i')
-    }
+    try{
+        industryRequest=req.param("industry")
+        if(!industryRequest){
+            industryRequest={$nin:""}
+        }else{
+            industryRequest= new RegExp(industryRequest,'i')
+        }
 
-    titleRequest=req.param("title")
-    if(!titleRequest){
-        titleRequest={$nin:""}
-    }
-    else{
-        newref= new RegExp(titleRequest,'i')
-        titleRequest={$regex : newref}
-    }
+        titleRequest=req.param("title")
+        if(!titleRequest){
+            titleRequest={$nin:""}
+        }
+        else{
+            newref= new RegExp(titleRequest,'i')
+            titleRequest={$regex : newref}
+        }
   
-    searchparameters={
-        industry : industryRequest,
-        title    : titleRequest
-      }
-    //console.log(searchparameters) 
-    const jobinfo = await JobDatabase.find(searchparameters)   
-    res.status(200).json(jobinfo)
-}
+        searchparameters={industry : industryRequest,title    : titleRequest  }
+        //console.log(searchparameters) 
+        const jobinfo = await JobDatabase.find(searchparameters)   
+        res.status(200).json(jobinfo)
+    } catch(error){
+        res.status(500)
+        throw new Error('Job not found')
+    }
 
+}
 
 const setJob = asyncHandler(async(req,res)=>{
     if(!req.body.text){
