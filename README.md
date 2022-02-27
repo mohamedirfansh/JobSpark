@@ -26,7 +26,7 @@ The client facing frontend was built in **React** with **Bootstrap**. Everytime 
 
 To ensure that we do not overload these APIs for jobs, we cached these job postings in our MongoDB database. This is done by a **Python** CRON worker that run a CRON schedule once a day and collect the various job postings from the different APIs. It then caches them in the database. Our backend server will run a custom filtering algorithm to filter jobs and only get jobs which do not require any experience. The jobs are also filtered according the industry requested by the user. These jobs are then returned to the client.
 
-**Application architecture**:
+### Application architecture:
 ![](images/architecture.png)
 
 ---
