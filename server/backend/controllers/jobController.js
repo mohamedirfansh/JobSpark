@@ -3,7 +3,7 @@ const asyncHandler =require('express-async-handler')
 const JobDatabase =require('../models/jobsmodel')
 
 
-const getJob = asyncHandler(async(req,res)=>{
+const getJob = async(req,res)=>{
     searchparameters={}
     
     industryRequest=req.param("industry")
@@ -29,7 +29,7 @@ const getJob = asyncHandler(async(req,res)=>{
     //console.log(searchparameters) 
     const jobinfo = await JobDatabase.find(searchparameters)   
     res.status(200).json(jobinfo)
-})
+}
 
 
 const setJob = asyncHandler(async(req,res)=>{

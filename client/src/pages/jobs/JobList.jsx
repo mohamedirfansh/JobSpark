@@ -25,6 +25,7 @@ export default function JobList() {
               <div className="text-center text-white">
                 <h3 className="mb-4 fw-bold">Job Lists</h3>
                 <p>View all the entry level jobs you can apply for.</p>
+                <a href="/" className="btn btn-sm btn-success">Back Home<i className="uil uil-angle-right-b"></i></a>
               </div>
           </div>
       </section>
