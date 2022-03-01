@@ -14,7 +14,7 @@ Fresh grads and university students always find it difficult to find jobs since 
 
 ## 🔎 What it does
 
-Users can select the industry that they would like to see the junior jobs. 
+Users can select the industry that they would like to find their junior postion jobs. 
 ![](images/categories.png)
 
 Once an industry is selected, all the junior postion jobs that do not require any experience will show up in a single page. Users can now conveniently view all the jobs they are eligible for in a single place. Users can also click the apply now button which will bring them to the actual posting of the job where they can apply for the job.
